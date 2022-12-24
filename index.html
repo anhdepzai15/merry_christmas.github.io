@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <div id="box">
+        <section class="gift">
+            <div class="gift-top hovered"></div>
+            <div class="gift-bottom"></div>
+            <h1 class="gift-text">CLICK VÀO ĐỂ MỞ QUÀ ĐI !!!!!</h1>
+            <audio autoplay >
+                <source src="./css/img/merry.mp3 " type="audio/mpeg">
+            </audio>
+    </section>
+        </div>
+        <div id="santan">
+            
+            <div class="countdown">
+                <div id="day"></div>
+                <div id="hour"></div>
+                <div id="minute"></div>
+                <div id="second"></div>
+                </div>
+                
+            <div class="santa-wrapper">
+                <div class="santa">
+                    <div class="head">
+                        <div class="face">
+                            <div class="redhat">
+                                <div class="whitepart"></div>
+                                <div class="redpart"></div>
+                                <div class="hatball"></div>
+                            </div>
+                            <div class="eyes"></div>
+                            <div class="beard">
+                                <div class="nouse"></div>
+                                <div class="mouth"></div>
+                            </div>
+                        </div>
+                        <div class="ears"></div>
+                    </div>
+                    <div class="body"></div>
+                </div>
+                
+            </div>
+       
+            
+            <div id="picture">
+                <img src="./css/img/hinh_3.jpg" alt="">
+                <h1 class="text_merry">......AN LÀNH !!!!<!DOCTYPE html></h1>
+                
+            </div>
+            <div id="picture_2">
+                <img src="./css/img/hinh_4.jpg" alt="">
+                <h1 class="text_merry">.....GIÁNG SINH</h1>
+              </div>
+              <div class="container">
+                <h2><span>MERRY CHRISTMAS!!!</span> 2022</h2>
+                </div>
+
+        </section>
+        
+            <canvas id="snow"></canvas>
+        </section>
+    </div> 
+    
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+      </div>
+      
+      <style type="text/css"> .snow-container { position: fixed; width: 100%; max-width: 100%; z-index: 99999; pointer-events: none; overflow: hidden; top: 0; height: 100%; } .snow { display: block; position: absolute; z-index: 2; top: 0; right: 0; bottom: 0; left: 0; pointer-events: none; -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); -webkit-animation: snow linear infinite; animation: snow linear infinite; } .snow.foreground { background-image: url("https://itexpress.vn/API/files/img/snow-medium.png"); -webkit-animation-duration: 15s; animation-duration: 10s; } .snow.foreground.layered { -webkit-animation-delay: 7.5s; animation-delay: 7.5s; } .snow.middleground { background-image: url(https://itexpress.vn/API/files/img/snow-medium.png); -webkit-animation-duration: 20s; animation-duration: 15s; } .snow.middleground.layered { -webkit-animation-delay: 10s; animation-delay: 10s; } .snow.background { background-image: url(https://itexpress.vn/API/files/img/snow-medium.png); -webkit-animation-duration: 25s; animation-duration: 20s; } .snow.background.layered { -webkit-animation-delay: 12.5s; animation-delay: 12.5s; } @-webkit-keyframes snow { 0% { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); } 100% { -webkit-transform: translate3d(5%,100%,0); transform: translate3d(5%,100%,0); } } @keyframes snow { 0% { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); } 100% { -webkit-transform: translate3d(5%,100%,0); transform: translate3d(5%,100%,0); } } </style> <div class='snow-container'> <div class='snow foreground'></div> <div class='snow foreground layered'></div> <div class='snow middleground'></div> <div class='snow middleground layered'></div> <div class='snow background'></div> <div class='snow background layered'></div></div>
+      <script type="text/javascript" src="https://itexpress.vn/API/files/it.snow.js"></script>
+      
+    </div>
+</div>
+   <script src="./main.js"></script>
+   
+</body>
+</html>
